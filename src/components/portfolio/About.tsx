@@ -74,6 +74,8 @@ export function About() {
               src="Muzafer.jpeg"
               alt="Portrait"
               className="absolute inset-0 h-full w-full object-cover object-center"
+   onLoad={() => setImageLoaded(true)}
+   onError={() => setImageError(true)}
             />
             <div
               className="absolute inset-0 pointer-events-none"
