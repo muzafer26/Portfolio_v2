@@ -1,0 +1,66 @@
+{
+  "%23tanstack-start-plugin-adapters": {
+    "file": "assets/__23tanstack-start-plugin-adapters-Cwee5PKy.js",
+    "name": "__23tanstack-start-plugin-adapters",
+    "src": "%23tanstack-start-plugin-adapters",
+    "isDynamicEntry": true
+  },
+  "C:/Users/shaik/Downloads/immersive-portfolio-hub-main/immersive-portfolio-hub-main/src/styles.css": {
+    "file": "assets/styles-x037Y4pT.css",
+    "src": "C:/Users/shaik/Downloads/immersive-portfolio-hub-main/immersive-portfolio-hub-main/src/styles.css"
+  },
+  "_server-TH9vllmQ.js": {
+    "file": "assets/server-TH9vllmQ.js",
+    "name": "server",
+    "isDynamicEntry": true,
+    "dynamicImports": [
+      "tanstack-start-manifest:v",
+      "src/router.tsx",
+      "src/start.ts",
+      "%23tanstack-start-plugin-adapters"
+    ]
+  },
+  "_worker-entry-DTzLOR7M.js": {
+    "file": "assets/worker-entry-DTzLOR7M.js",
+    "name": "worker-entry",
+    "dynamicImports": [
+      "_server-TH9vllmQ.js"
+    ]
+  },
+  "src/router.tsx": {
+    "file": "assets/router-B2ja4P-A.js",
+    "name": "router",
+    "src": "src/router.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_server-TH9vllmQ.js"
+    ],
+    "assets": [
+      "assets/styles-x037Y4pT.css"
+    ]
+  },
+  "src/start.ts": {
+    "file": "assets/start-nViHhqbY.js",
+    "name": "start",
+    "src": "src/start.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "_worker-entry-DTzLOR7M.js"
+    ]
+  },
+  "tanstack-start-manifest:v": {
+    "file": "assets/_tanstack-start-manifest_v-Dh2JADTt.js",
+    "name": "_tanstack-start-manifest_v",
+    "src": "tanstack-start-manifest:v",
+    "isDynamicEntry": true
+  },
+  "virtual:cloudflare/worker-entry": {
+    "file": "index.js",
+    "name": "index",
+    "src": "virtual:cloudflare/worker-entry",
+    "isEntry": true,
+    "imports": [
+      "_worker-entry-DTzLOR7M.js"
+    ]
+  }
+}
