@@ -51,7 +51,7 @@ npm run build
 
 ## 📬 Contact
 
-- **Website**: [muzafer26.github.io/immersive-portfolio-hub/](https://muzafer26.github.io/immersive-portfolio-hub/)
+- **Website**: [muzafer26.github.io/Portfolio_v2/](https://muzafer26.github.io/Portfolio_v2/)
 - **LinkedIn**: [muzafer-shaikh](https://www.linkedin.com/in/muzafer-shaikh-726a40338/)
 - **GitHub**: [@muzafer26](https://github.com/muzafer26)
 
