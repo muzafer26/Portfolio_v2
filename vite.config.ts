@@ -10,7 +10,7 @@ export default defineConfig({
     tsconfigPaths(),
     tanstackStart({
       server: {
-        preset: 'vercel',
+        preset: 'cloudflare-pages',
       }
     }),
     react(),
