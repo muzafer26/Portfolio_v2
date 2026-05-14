@@ -71,12 +71,9 @@ export function About() {
               />
             )}
             <img
-              src="/Muzafer.jpeg"
+              src="/Muzafer.jpg"
               alt="Portrait"
               className="absolute inset-0 h-full w-full object-cover object-center"
-              onLoad={() => setImageLoaded(true)}
-              onError={() => setImageError(true)}
-              style={{ opacity: imageLoaded ? 1 : 0 }}
             />
             <div
               className="absolute inset-0 pointer-events-none"
