@@ -14,7 +14,7 @@ function Counter({ value }: { value: string }) {
   const isNum = !Number.isNaN(numeric);
   const ref = useRef<HTMLSpanElement | null>(null);
   const inView = useInView(ref, { once: true, margin: "-20%" });
-  const [shown, setShown] = useState(isNum ? "0" : value);
+  const [shown, setShown] = useState<string>(value);
 
   useEffect(() => {
     if (!isNum || !inView) return;
