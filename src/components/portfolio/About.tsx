@@ -71,7 +71,7 @@ export function About() {
               />
             )}
             <img
-              src="/Muzafer.jpeg"
+              src="Muzafer.jpeg"
               alt="Portrait"
               className="absolute inset-0 h-full w-full object-cover object-center"
               onLoad={() => setImageLoaded(true)}

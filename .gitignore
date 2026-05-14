@@ -29,4 +29,9 @@ dist-ssr
 *.ntvs*
 *.njsproj
 *.sln
-*.sw?
+
+# AI Metadata
+.lovable/
+.antigravity/
+.antigravityignore
+
